@@ -1,0 +1,135 @@
+._background {
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    left: 10%;
+    
+}
+.top_conter {
+    height: 20%;
+       
+}
+.search {
+    width: 60%;
+    height: 40px;
+    font-size: 1.2em;
+    position: absolute;
+    left: 20%;
+    
+}
+
+.web1  {
+    width: 16%;
+    font-size: 1.3em;
+    font-family: serif; 
+    text-align: center;
+    float: left;
+    border: 1px solid #909090;
+    margin: 1px;
+    
+}
+.webs{
+    width: 80%;
+    position: absolute;
+    top: 29%;
+    left: 10%;
+    
+}
+.web2 {
+    width: 140px;
+    height: 25px;
+}
+.bottom {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    background-color: #eee;
+    transition: 0.5s;
+    
+}
+.closebtn {
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    
+    cursor: pointer;
+}
+
+.add-box {
+    position: absolute;
+    top: 40%;
+    margin: 0 15%;
+}
+.add-box > div {
+    
+    float: left;
+    margin: 0 5px;   
+}
+.sug-name, .sug-link  {
+    border: 1px solid #909090;
+    text-align: center;
+    height: 2em;
+    width: 100%;
+    
+}
+.sug-link-box {
+    width: 600px;
+}
+.sug-botton {
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 28px;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    background: #38f;
+}
+.sug-botton:hover {
+    background: #07f;
+    border: 2px solid #07f;
+    cursor: pointer;
+}
+
+
+a:link {
+    
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+p {
+    background: hsl(0, 50%, 45%);
+    color: white;
+    text-shadow: 1px 1px black, 2px 2px black,
+                 3px 3px black, 4px 4px black,
+                 5px 5px black, 6px 6px black,
+                 7px 7px black, 8px 8px black;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    height: 30%;
+}
+p:hover {
+    
+    
+    
+}
+div {
+    
+}
+
+/*.search-icon{
+    width: 40px;
+    height: 30px;
+    
+    position: absolute;
+    top: 21%;
+    left: 75%;
+}*/

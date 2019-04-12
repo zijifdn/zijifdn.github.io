@@ -1,42 +1,59 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-hars-CN">
 <head>
-    <meta charset="UTF-8" >
-    <title>我在做什么？</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css" />
-</head>
-<body>
-    <div>
-    
-    <div class="headers">
-    <header>
-        <div>
-        <a href="index.html" title="我在做什么？">
-            <img src="" alt="我在做什么？">
-        </a>
-        <span class="blog-title">我在做什么？</span>
-        <span class="blog-title">那些路上的小目标</span>
-        </div>
-    </header>
-    </div>
-    
-    <div class="main">
-    <article class="goal">
-        <div class="web">
-            <h2>前端技术</h2>
-            <a>HTML/CSS/JS/<progress max="100" value="10">10%</progress></a>
-        </div>
-        <div>
+<meta charset="UTF-8">
+<title>主页</title>
+<link rel="stylesheet" type="text/css" href="daohang.css"/>
+<script type="text/javascript" src="myjs.js"></script>
 
-        </div>
-        <ul>
-            <li>HTML/CSS<progress max="100" value="10">10%</progress></li>
-            <li>JS<progress max="100" value="10">10%</progress></li>
-            <li>框架<progress max="100" value="10">10%</progress></li>
-        </ul>
-    </article>
+
+</head>
+
+<body>
+<div class="_background">
+    <div class="top_conter">
+        <p></p>
+        
     </div>
     
+    <form action="https://www.baidu.com/baidu" target="_blank">
+    <input class="search" type="text" name="word">
+    <!-- <input class="search-icon" type="submit" value="百度"> -->
+    </form>
+
+    <div class="webs" id="webs">
+        <div class="web1"><a href="https://www.baidu.com" target="_blank">百度</a></div>
+        <div class="web1"><a href="https://www.youku.com" target="_blank">优酷</a></div>
+        <div class="web1"><a href="https://www.weibo.com" target="_blank">微博</a></div>
+        <div class="web1"><a href="https://pan.baidu.com" target="_blank">百度网盘</a></div>
+        <div class="web1"><a href="http://ilxdh.com/" target="_blank">龙轩导航</a></div>
+        <div class="web1"><a href="https://www.jiumodiary.com/" target="_blank">鸠摩</a></div>
+        <div class="web1"><a href="https://www.bilibili.com/" target="_blank">bilibili</a></div>
+        <div class="web1"><a href="https://www.panda.tv/" target="_blank">熊猫TV</a></div>
+        <div class="web1"><a href="https://www.douyu.com/" target="_blank">斗鱼TV</a></div>
+        <div class="web1"><a href="https://www.douban.com/" target="_blank">豆瓣</a></div>
+        <div class="web1"><a href="http://www.dysfz.cc/" target="blank">电影首发站</a></div>
+        <div class="web1"><a href="https://www.huya.com/" target="blank">虎牙</a></div>
+        <div class="web1"><a href="https://egame.qq.com/616289265/" target="blank">德云贝贝</a></div>
+        <div class="web1"><a href="https://www.zhanqi.tv/873081043" target="blank">老白涮肉坊</a></div>
+        <div class="web1" id="add" style="cursor:pointer"onclick="openNav()"><a>设置</a></div>
+        
     </div>
+    
+    <div class="bottom" id="sidenav">
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="add-box">
+        <div class="sug-name-box">
+            <input type="text" class="sug-name" id="sug-name" placeholder="名称">
+        </div>
+        <div class="sug-link-box">
+            <input type="text" class="sug-link" id="sug-link" placeholder="网址">
+        </div>
+        <div class="sug-botton" onclick="addweb()">添加网址</div>
+    </div>
+    </div>
+</div>
+
 </body>
+</html>
 </html>
